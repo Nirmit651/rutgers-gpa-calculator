@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+
+# Personal academic records: copy the template, then keep your data local.
+src/data/personalCourses.json

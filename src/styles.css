@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme { --font-serif: Georgia, Cambria, "Times New Roman", serif; }
+
+@layer base {
+  * { box-sizing: border-box; }
+  button, input, select { font: inherit; }
+}
+
+@layer components {
+  .button-primary { @apply rounded-sm bg-[#cc0033] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#a9002a] focus:outline-none focus:ring-2 focus:ring-[#cc0033] focus:ring-offset-2; }
+  .button-secondary { @apply rounded-sm border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold transition hover:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2; }
+  .field-input { @apply rounded-sm border border-slate-300 bg-white px-3 py-2 outline-none transition focus:border-[#cc0033] focus:ring-2 focus:ring-[#cc0033]/15; }
+  .course-input { @apply bg-transparent outline-none placeholder:text-slate-400 focus:text-[#cc0033]; }
+  .delete-button { @apply h-9 w-9 rounded-sm text-2xl leading-none text-slate-400 transition hover:bg-red-50 hover:text-[#cc0033] focus:outline-none focus:ring-2 focus:ring-[#cc0033]; }
+}

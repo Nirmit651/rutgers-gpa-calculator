@@ -1,0 +1,36 @@
+{
+  "courses": [
+    {
+      "id": "fall-2026-example-course",
+      "semester": "Fall 2026",
+      "code": "01:000:101",
+      "name": "Example Course",
+      "subtopic": "Optional concentration or note",
+      "credits": 3,
+      "grade": ""
+    },
+    {
+      "id": "spring-2026-completed-course",
+      "semester": "Spring 2026",
+      "code": "01:000:102",
+      "name": "Completed Example Course",
+      "credits": 4,
+      "grade": "A"
+    },
+    {
+      "id": "pass-fail-example",
+      "semester": "Spring 2026",
+      "code": "01:000:103",
+      "name": "Pass/Fail Example Course",
+      "credits": 1,
+      "grade": "P"
+    }
+  ],
+  "externalCredits": [
+    {
+      "code": "01:000:100",
+      "name": "Example AP or Transfer Credit",
+      "credits": 3
+    }
+  ]
+}
